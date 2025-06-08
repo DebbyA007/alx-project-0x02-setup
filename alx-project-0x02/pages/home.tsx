@@ -1,12 +1,24 @@
 import Card from '../components/common/Card';
 
-import Layout from "../components/layout/Layout";
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <Layout>
+    <div>
       <h1>Home Page</h1>
-      <p>This is the Home page content.</p>
-    </Layout>
+
+      <Card
+        title="Card One"
+        content="This is the first card's content."
+      />
+
+      <Card
+        title="Card Two"
+        content="Here’s some different text in the second card."
+      />
+
+      <Card
+        title="Card Three"
+        content="And this is the third card, showing how reusable components work!"
+      />
+    </div>
   );
 }
