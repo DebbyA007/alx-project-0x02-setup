@@ -1,8 +1,4 @@
-export interface Post {
+export interface CardProps {
   title: string;
-  body: string;
-}
-export interface User {
-  name: string;
-  email: string;
+  content: string;
 }
