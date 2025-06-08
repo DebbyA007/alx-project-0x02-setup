@@ -13,17 +13,12 @@ export default function PostsPage() {
   }, []);
 
   return (
-    <div>
+    <div className="p-6">
       <Header />
 
       <h1 className="text-2xl font-bold mb-4">Posts</h1>
       {posts.map(post => (
-        <PostCard
-          key={post.id}
-          userId={post.userId}
-          title={post.title}
-          body={post.body}
-        />
+        <PostCard key={post.id} userId={post.userId} title={post.title} body={post.body} />
       ))}
     </div>
   );
