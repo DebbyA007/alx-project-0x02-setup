@@ -10,7 +10,7 @@ export default function HomePage() {
       <Header />
 
       <h1 className="text-2xl font-bold mb-4">Home Page</h1>
-      {/* rest of your HomePage content */}
+      {}
     </div>
   );
 }
