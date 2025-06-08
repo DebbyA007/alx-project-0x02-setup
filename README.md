@@ -1,3 +1,7 @@
-# alx-project-0x02-setup
+# Next.js Project Setup and Basics
 
-This is the setup for ALX Project 0x02. It simulates a Next.js project structure using GitHub’s web interface. We create pages, components, and interfaces by adding files on GitHub. (Later you can deploy this to Vercel to see it live.)
+Project Description
+This project is a comprehensive introduction to setting up and working with Next.js, TypeScript,
+and Tailwind CSS. It guides you through creating a modern web application with reusable components,
+routing, API integration, and proper project structure. The project covers fundamental concepts
+from initial setup to building interactive components and fetching data from external APIs.
