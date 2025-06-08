@@ -1,0 +1,8 @@
+export default function PostModal({ title, body }: { title: string; body: string }) {
+  return (
+    <div className="mt-2 p-2 bg-gray-100 border">
+      <h3 className="font-semibold">{title}</h3>
+      <p>{body}</p>
+    </div>
+  );
+}
