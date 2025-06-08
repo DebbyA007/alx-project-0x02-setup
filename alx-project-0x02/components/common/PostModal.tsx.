@@ -1,4 +1,3 @@
-// components/common/PostModal.tsx
 import { useState } from 'react';
 
 interface PostModalProps {
@@ -59,5 +58,4 @@ export default function PostModal({ onSubmit, onClose }: PostModalProps) {
         </form>
       </div>
     </div>
-  );
-}
+ 
