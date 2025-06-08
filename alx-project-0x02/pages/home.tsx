@@ -1,3 +1,5 @@
+import Card from '../components/common/Card';
+
 import Layout from "../components/layout/Layout";
 
 export default function Home() {
