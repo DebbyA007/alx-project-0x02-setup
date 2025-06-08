@@ -1,7 +1,17 @@
+import React from 'react';
 import { ButtonProps } from '../../interfaces';
-export default function Button({ size, shape, children }: React.PropsWithChildren<ButtonProps>) {
+
+export default function Button({
+  size,
+  shape,
+  children,
+  onClick,
+}: React.PropsWithChildren<ButtonProps>) {
   return (
-    <button className={`${size} ${shape}`}>
+    <button
+      onClick={onClick}
+      className={`btn ${size} ${shape}`}
+    >
       {children}
     </button>
   );
